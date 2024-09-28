@@ -1,0 +1,40 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = nil
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SREmissive = SREmissiveMap
+    Emissive Map = nil
+    Color = 0.8 0.8 0.8
+    Intensity = 0
+    UV Set = 0
+    Glow = 0.0379196 0.0379196 0.0379196
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

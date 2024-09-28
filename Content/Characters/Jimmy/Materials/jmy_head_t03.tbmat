@@ -1,0 +1,46 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "E:\workspace\Projects\charpacks\j-pack\unity\jimmy_adv\Assets\jimmy_adventure\Textures\head\jmy_face_Normal.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = @Tex file "../Textures/jmy_face_Metallic_2.tga" fileFull "E:/workspace/Projects/charpacks/j-pack/store/adventure/jimmy/marmoset/Assets/Textures/jmy_face_Metallic_2.tga" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 3
+    Roughness = 1
+    Invert;roughness = 1
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/jmy_face_t03_Albedo.tga" fileFull "E:/workspace/Projects/charpacks/j-pack/store/adventure/jimmy/marmoset/Assets/Textures/jmy_face_t03_Albedo.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = @Tex file "../Textures/jmy_eyes_Metallic_2.tga" fileFull "E:/workspace/Projects/charpacks/j-pack/store/adventure/jimmy/marmoset/Assets/Textures/jmy_eyes_Metallic_2.tga" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Metalness = 1
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

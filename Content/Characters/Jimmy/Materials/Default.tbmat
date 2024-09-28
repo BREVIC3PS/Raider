@@ -1,0 +1,46 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = nil
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 0
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceRoughnessMap
+    Roughness Map = nil
+    Channel = 0
+    Roughness = 0.3
+    Invert;roughness = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = nil
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivityMetalnessMap
+    Metalness Map = nil
+    Channel = 0
+    Metalness = 0
+    Invert = 0
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+
