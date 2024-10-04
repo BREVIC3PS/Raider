@@ -1,8 +1,10 @@
 # Raider
 This is a UE5 third-person multiplayer game where you can grab a rifle to shoot around, and remotely summon a flying dragon to ride with your teammates, scorching enemies to ashes!
 
+![image](Demo/Preview.png)  
+
 # Demo Video
-![video](Demo/DemoVideo.mp4)  
+[DemoVideoInYoutube](https://youtu.be/bTlf26wLZm8)
 
 (If gifs are not shown please wait or go to [Gifs](Demo) to watch them.)
 # Features
